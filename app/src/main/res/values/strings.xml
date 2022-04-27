@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">YouthAndPower</string>
+    <string name="by">By  </string>
+    <string name="no_connection">Something went wrong,please try again</string>
+    <string name="youth_and_power_articles">Youth And Power Articles</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comments">Comments</string>
+    <string name="remember_to_keep_comments_respectful">Remember to keep comments respectful</string>
+    <string name="add_comment">Add Comment..........</string>
+    <string name="please_share_your_thoughts">Please share your thoughts.....</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+</resources>

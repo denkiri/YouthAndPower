@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:elevation="14dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:shapeAppearance="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:src="@drawable/appstore"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+
+    <com.example.youthandpower.utils.CircleImageView
+        android:id="@+id/play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        app:civ_border_color="@color/full_transparent"
+        app:civ_border_overlay="true"
+        app:civ_border_width="1dp"
+        app:civ_fill_color="@color/transparent"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/transparent"
+        android:background="@color/transparent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="25dp"
+        android:textColor="@color/white"
+        android:text="there are main two hexadecimal characters can here range from 00 to FF.
+For example"
+        />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:backgroundTint="@color/transparent"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+
+        android:textSize="10sp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/white"
+        android:text="1 hour ago"
+        />
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:backgroundTint="@color/transparent"
+        android:layout_gravity="bottom|end"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/white"
+        android:text="Category"
+        />
+</androidx.cardview.widget.CardView>
